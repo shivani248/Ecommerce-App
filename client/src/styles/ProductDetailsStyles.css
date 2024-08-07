@@ -1,0 +1,87 @@
+.product-details {
+  margin-top: 100px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 300px !important;
+}
+
+
+.fixed-card {
+  height: 300px; /* Set a fixed height for the entire card */
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  justify-content: space-between; /* Distribute space evenly */
+}
+
+.img-container {
+  width: 100%; /* Ensures the image container fills the card width */
+  height: 200px; /* Fixed height for the image container */
+  overflow: hidden; /* Hide any overflow content of the image */
+}
+
+.img-container img {
+  width: 100%; /* Scale image to fit container's width */
+  height: 100%; /* Scale image to fit container's height */
+  object-fit: cover; /* Cover container while maintaining aspect ratio */
+}
+
+.card-body {
+  padding: 15px; /* Add padding to the card body */
+  overflow: hidden; /* Prevent overflow from text content */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Adjust font size for title */
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+.card-text {
+  font-size: 1rem; /* Adjust font size for description */
+  overflow: hidden; /* Ensure text doesn't overflow */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  white-space: nowrap; /* Keep text on one line */
+}
